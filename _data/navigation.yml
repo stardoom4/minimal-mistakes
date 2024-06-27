@@ -7,3 +7,19 @@ main:
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
+
+sidebar:
+  - title: "Webroll"
+    children:
+      - title: "Chase McCoy"
+        url: https://chasem.co/
+      - title: "Batfan on Batman"
+        url: https://numberonebatfan.wordpress.com/
+      - title: "XXIIVV"
+        url: https://wiki.xxiivv.com/site/home.html
+      - title: "Ritual Dust"
+        url: https://ritualdust.com/
+      - title: "Hamish MacDonald"
+        url: https://kor.nz/
+      - title: "Carl Sagan"
+        url: https://carlsagan.com/
