@@ -1,6 +1,6 @@
 ---
 permalink: /
 title: "Wunder"
-layout: posts
-author_profile: single
+layout: single
+author_profile: true
 ---
