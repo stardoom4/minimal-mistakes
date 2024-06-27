@@ -323,15 +323,4 @@ defaults:
       share: true
       related: true
       sidebar:
-        nav: "sidebar
-  - scope:
-      path: ""
-      type: pages
-    values:
-      author_profile: true
-      read_time: false
-      comments: # true
-      share: false
-      related: false
-      sidebar:
-        nav: "sidebar
+        nav: "sidebar"
