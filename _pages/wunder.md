@@ -1,5 +1,5 @@
 ---
 permalink: /
 title: "Wunder"
-layout: archive
+layout: default
 ---
