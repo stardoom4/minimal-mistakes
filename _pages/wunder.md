@@ -1,5 +1,5 @@
 ---
 permalink: /
 title: "Wunder"
-layout: default
+layout: posts
 ---
