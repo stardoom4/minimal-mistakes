@@ -5,22 +5,3 @@ header:
   overlay_image: "https://th-thumbnailer.cdn-si-edu.com/-z63Cnyxeb2LKqJumXJkku12_lo=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/Telescope-Milky-Way-center-631.jpg"
   overlay_filter: 0.3
 ---
-{% include base_path %}
-
-{% if paginator.page == 1 %}
-  {% assign pinned = site.posts | where:"pinned","true" %}
-  {% if pinned.size > 0 %}
-    <h3 class="archive__subtitle"><i class="fa fa-thumb-tack" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].pinned_posts | default: "Pinned Posts" }}</h3>
-    {% for post in pinned %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endif %}
-{% endif %}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
