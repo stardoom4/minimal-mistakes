@@ -10,10 +10,10 @@ header:
   overlay_filter: 0.4 
 ---
 <h3>Recents</h3>
-<ul>
+<ol>
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ul>
+</ol>
