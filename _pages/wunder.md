@@ -6,8 +6,8 @@ author_profile: true
 sidebar:
   nav: "sidebar"
 header:
-  overlay_image: /assets/images/header-img.jpg
-  overlay_filter: 0.4 
+  overlay_image: https://wallpapercave.com/wp/wp3493593.jpg
+  overlay_filter: 0
 ---
 <h3>Recents</h3>
 <ol>
